@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+ 
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Have A Merry War</title>
+    <script src="libs/phaser.js"></script>
+    <script src="libs/AStar.js"></script>
+    <script src="src/game.js"></script>
+    <style>
+        body, html {
+            margin: 0; padding: 0;
+        }
+        #game {
+            float: left;
+        }
+        #content {
+            position: relative;
+            margin-top: 10px;
+            margin-left: 10px;
+            width: 800px;
+            height: 600px;
+            border: 5px solid firebrick;
+            background-color: lightgrey;
+        }
+
+        #menu {
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 25px;
+            background-color: grey;
+            
+        }
+
+        .btn {
+        
+        }
+
+        .send-unit {
+            
+        }
+
+        #description {
+            float: left;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="game">
+        <div id="content">
+            <div id="menu">
+                <button class="btn add-unit">Add unit</button>
+                <button class="btn add-ten-units">Add ten units</button>
+            </div>
+        </div>
+    </div>
+    <div id="description">
+        <h1>Have A Merry War</h1>
+        <p>Trying to create some sort of RTS</p>
+        <p>
+            Features:
+            <ul>
+                <li>Units</li>
+                <li>Selection</li>
+                <li>Moving selected units</li>
+                <li>Drag-select units (works only one way though)</li>
+            </ul>
+        </p>
+    </div>
+
+</body>
+</html>
